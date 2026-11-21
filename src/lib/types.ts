@@ -1,4 +1,4 @@
-// OpenDoor TypeScript Data Models & Types — Upgraded Multi-Source Architecture
+// ChanceDeck TypeScript Data Models & Types — Upgraded Multi-Source Architecture
 
 export type OpportunityCategory = 
   | 'hackathon' 

@@ -1,4 +1,4 @@
-# OpenDoor — Technical Architecture & Data Flow
+# ChanceDeck — Technical Architecture & Data Flow
 
 ## 1. System Architecture Diagram
 

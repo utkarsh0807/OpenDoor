@@ -11,7 +11,7 @@ export default function SettingsPage() {
 
   const handleExport = () => {
     const data = StorageManager.exportPersonalData();
-    downloadFile('opendoor-export-all.json', data, 'application/json');
+    downloadFile('ChanceDeck-export-all.json', data, 'application/json');
   };
 
   const handleClearAll = () => {
@@ -93,7 +93,7 @@ export default function SettingsPage() {
         </h3>
 
         <p className="text-slate-600 leading-relaxed">
-          OpenDoor prioritizes student privacy. In Guest Mode, all bookmarked opportunities, application checklists, and profile preferences remain exclusively in your local browser storage.
+          ChanceDeck prioritizes student privacy. In Guest Mode, all bookmarked opportunities, application checklists, and profile preferences remain exclusively in your local browser storage.
         </p>
 
         <div className="flex flex-wrap items-center gap-3 pt-2">

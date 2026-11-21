@@ -30,10 +30,10 @@ export default function CalendarPage() {
     const icsContent = [
       'BEGIN:VCALENDAR',
       'VERSION:2.0',
-      'PRODID:-//OpenDoor//Complete Student Calendar//EN',
+      'PRODID:-//ChanceDeck//Complete Student Calendar//EN',
       ...events.map(e => [
         'BEGIN:VEVENT',
-        `UID:opendoor-${e.id}@opendoor.in`,
+        `UID:ChanceDeck-${e.id}@ChanceDeck.in`,
         `DTSTAMP:${new Date().toISOString().replace(/-|:|\.\d+/g, '')}`,
         `DTSTART:${new Date(e.eventStartDate).toISOString().replace(/-|:|\.\d+/g, '')}`,
         `DTEND:${new Date(e.eventEndDate).toISOString().replace(/-|:|\.\d+/g, '')}`,
@@ -45,7 +45,7 @@ export default function CalendarPage() {
       'END:VCALENDAR'
     ].join('\r\n');
 
-    downloadFile('opendoor-student-calendar.ics', icsContent, 'text/calendar;charset=utf-8');
+    downloadFile('ChanceDeck-student-calendar.ics', icsContent, 'text/calendar;charset=utf-8');
   };
 
   return (
@@ -84,7 +84,7 @@ export default function CalendarPage() {
         <div>
           <strong className="block mb-0.5">Strict Distinction: Registration Deadline vs Event Date</strong>
           <p className="text-slate-600 leading-relaxed text-[11px]">
-            In OpenDoor, a registration deadline is when applications close. Hackathons and competitions may have closed registrations while the physical or online event happens weeks later. Never miss the application cutoff!
+            In ChanceDeck, a registration deadline is when applications close. Hackathons and competitions may have closed registrations while the physical or online event happens weeks later. Never miss the application cutoff!
           </p>
         </div>
       </div>

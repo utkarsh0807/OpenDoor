@@ -27,7 +27,7 @@ export const VerificationBadge: React.FC<VerificationBadgeProps> = ({
   switch (status) {
     case 'verified':
       return (
-        <Badge variant="success" title={`Verified by ${verifiedBy || 'OpenDoor Verification Desk'}`}>
+        <Badge variant="success" title={`Verified by ${verifiedBy || 'ChanceDeck Verification Desk'}`}>
           <ShieldCheck className="w-3 h-3 text-emerald-600" />
           Verified Source
         </Badge>

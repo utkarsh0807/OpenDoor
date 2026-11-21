@@ -1,5 +1,5 @@
 @echo off
-title OpenDoor Production Build
+title ChanceDeck Production Build
 echo ====================================================
 echo Generating Production Build...
 echo ====================================================

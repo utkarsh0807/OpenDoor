@@ -1,10 +1,10 @@
-# OpenDoor — Intelligence & Experience Upgrade Status (100% COMPLETE)
+# ChanceDeck — Intelligence & Experience Upgrade Status (100% COMPLETE)
 
 ## Project Overview
-- **Project Name**: OpenDoor
+- **Project Name**: ChanceDeck
 - **Tagline**: Discover Opportunities. Build Your Future.
 - **Type**: Open-Source Student Opportunity Intelligence Platform (Google Gemini Hackathon Project)
-- **Directory**: `C:\Users\utkar\.gemini\antigravity\scratch\opendoor`
+- **Directory**: `C:\Users\utkar\.gemini\antigravity\scratch\ChanceDeck`
 - **Build Status**: Fully Upgraded, Type-Checked, and Verified across all 14 upgrade dimensions.
 
 ---

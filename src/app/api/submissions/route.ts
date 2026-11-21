@@ -91,7 +91,7 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({
       success: true,
-      message: 'Submission received. It will be reviewed by the OpenDoor verification desk before publishing.',
+      message: 'Submission received. It will be reviewed by the ChanceDeck verification desk before publishing.',
       data: newSubmission
     });
   } catch (error: any) {

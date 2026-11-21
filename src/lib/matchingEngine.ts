@@ -1,4 +1,4 @@
-// OpenDoor Deterministic Student Matching Engine
+// ChanceDeck Deterministic Student Matching Engine
 // Compares student profile parameters against opportunity eligibility without hallucinations
 
 import { Opportunity, StudentProfile, MatchResult, MatchStrength } from './types';

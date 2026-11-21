@@ -17,7 +17,7 @@ export const RequiredDocumentsSection: React.FC<RequiredDocumentsSectionProps> =
   opportunityTitle,
   documentRequirements = []
 }) => {
-  const storageKey = `opendoor_docs_checklist_${opportunityId}`;
+  const storageKey = `ChanceDeck_docs_checklist_${opportunityId}`;
   const [checkedIds, setCheckedIds] = useState<string[]>([]);
 
   useEffect(() => {

@@ -1,6 +1,6 @@
-# Contributing to OpenDoor
+# Contributing to ChanceDeck
 
-Thank you for your interest in improving OpenDoor!
+Thank you for your interest in improving ChanceDeck!
 
 ## Development Workflow
 1. Install project packages: `npm install`

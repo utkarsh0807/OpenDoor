@@ -121,7 +121,7 @@ export default function AdminDashboardPage() {
             Verification & Platform Intelligence Desk
           </div>
           <h1 className="text-2xl font-extrabold text-navy-900">
-            OpenDoor Administrator Console
+            ChanceDeck Administrator Console
           </h1>
           <p className="text-xs text-slate-500 mt-1">
             Manage 32 automated multi-source connectors, review organizer submissions, audit dates and venues, and monitor discrepancies.
@@ -466,7 +466,7 @@ export default function AdminDashboardPage() {
         <div className="bg-white rounded-2xl border border-slate-200/90 p-6 shadow-sm space-y-4 text-xs text-slate-700">
           <h3 className="font-bold text-navy-900 text-sm">Administrator Role & Row Level Security (RLS)</h3>
           <p className="text-slate-600 leading-relaxed">
-            OpenDoor strictly prevents unauthorized administrative modifications through Supabase PostgreSQL Row Level Security (RLS) policies. Public visitors and students can only view published opportunities and manage their own private profiles.
+            ChanceDeck strictly prevents unauthorized administrative modifications through Supabase PostgreSQL Row Level Security (RLS) policies. Public visitors and students can only view published opportunities and manage their own private profiles.
           </p>
 
           <div className="p-4 bg-slate-50 rounded-xl border border-slate-200 space-y-2 font-mono text-[11px]">

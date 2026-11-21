@@ -40,7 +40,7 @@ export default function ApplicationsPage() {
 
   const handleExportData = () => {
     const jsonStr = StorageManager.exportPersonalData();
-    downloadFile('opendoor-my-applications.json', jsonStr, 'application/json');
+    downloadFile('ChanceDeck-my-applications.json', jsonStr, 'application/json');
   };
 
   const getStatusBadge = (status: ApplicationStatus) => {

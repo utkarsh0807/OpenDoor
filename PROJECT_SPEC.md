@@ -1,7 +1,7 @@
-# OpenDoor — Project Specification
+# ChanceDeck — Project Specification
 
 ## 1. Executive Summary
-- **Project Name**: OpenDoor
+- **Project Name**: ChanceDeck
 - **Tagline**: Discover Opportunities. Build Your Future.
 - **Mission**: Provide an open-source student opportunity intelligence platform for Indian college students across all disciplines (Engineering, Science, Medical, Commerce, Arts, Polytechnic, Agriculture, Management).
 - **Core Problem Solved**: Eliminates scattered, inaccessible, and fake notices by establishing a source-verified catalog of hackathons, government scholarships, research internships, and competitions with deterministic eligibility matching and Google Gemini AI assistance.

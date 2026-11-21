@@ -60,7 +60,7 @@ export const Topbar: React.FC<TopbarProps> = ({ onOpenSidebar }) => {
             <div className="w-7 h-7 rounded-lg bg-gradient-to-tr from-purple-600 to-blue-600 flex items-center justify-center text-white font-extrabold text-xs shadow-sm">
               O
             </div>
-            <span className="font-bold text-navy-900 text-sm">OpenDoor</span>
+            <span className="font-bold text-navy-900 text-sm">ChanceDeck</span>
           </Link>
         </div>
 

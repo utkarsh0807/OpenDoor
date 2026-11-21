@@ -1,6 +1,6 @@
-# OpenDoor — Discover Opportunities. Build Your Future.
+# ChanceDeck — Discover Opportunities. Build Your Future.
 
-> An open-source student opportunity intelligence platform built for the Google Gemini Student Hackathon. OpenDoor unifies national hackathons, government scholarships, research internships, and competitions across India into a single source-verified catalog with deterministic eligibility matching and Gemini AI guidance.
+> An open-source student opportunity intelligence platform built for the Google Gemini Student Hackathon. ChanceDeck unifies national hackathons, government scholarships, research internships, and competitions across India into a single source-verified catalog with deterministic eligibility matching and Gemini AI guidance.
 
 ---
 
@@ -47,7 +47,7 @@
 ### 2. Installation
 ```bash
 # Navigate to the project directory
-cd C:\Users\utkar\.gemini\antigravity\scratch\opendoor
+cd C:\Users\utkar\.gemini\antigravity\scratch\ChanceDeck
 
 # Install dependencies
 npm install
@@ -88,7 +88,7 @@ npm run build
 ## 📁 Project Structure
 
 ```
-opendoor/
+ChanceDeck/
 ├── src/
 │   ├── app/                    # Next.js 14 App Router routes & API endpoints
 │   │   ├── page.tsx            # SaaS Landing Page

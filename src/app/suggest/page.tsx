@@ -118,10 +118,10 @@ export default function SuggestOpportunityPage() {
             <Check className="w-6 h-6" />
           </div>
           <h2 className="text-lg font-bold text-navy-900">
-            Thank you for contributing to OpenDoor!
+            Thank you for contributing to ChanceDeck!
           </h2>
           <p className="text-xs text-slate-500 max-w-md mx-auto leading-relaxed">
-            Your submission for <strong>"{title}"</strong> has been queued for verification by the OpenDoor verification desk. Once verified with official sources, it will appear publicly.
+            Your submission for <strong>"{title}"</strong> has been queued for verification by the ChanceDeck verification desk. Once verified with official sources, it will appear publicly.
           </p>
           <div className="flex items-center justify-center gap-3 pt-2">
             <Button

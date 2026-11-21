@@ -49,7 +49,7 @@ describe('StorageManager & Application Lifecycle Tracker', () => {
     const jsonString = StorageManager.exportPersonalData();
     const parsed = JSON.parse(jsonString);
 
-    expect(parsed.platform).toBe('OpenDoor Opportunity Intelligence');
+    expect(parsed.platform).toBe('ChanceDeck Opportunity Intelligence');
     expect(parsed.savedOpportunities).toContain('opp-ethindia-devfolio');
   });
 });

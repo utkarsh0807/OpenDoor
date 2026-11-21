@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
             <div className="w-7 h-7 rounded-lg bg-gradient-to-tr from-purple-600 to-blue-600 flex items-center justify-center text-white font-extrabold text-xs shadow-sm">
               O
             </div>
-            <span className="font-bold text-navy-900 text-sm">OpenDoor</span>
+            <span className="font-bold text-navy-900 text-sm">ChanceDeck</span>
           </div>
           <p className="text-slate-600 leading-relaxed text-xs">
             Open-source student opportunity intelligence platform. Discover genuine hackathons, scholarships, internships, and academic grants across India.
@@ -59,7 +59,7 @@ export const Footer: React.FC = () => {
             Data Quality & Ethics
           </h4>
           <p className="text-slate-500 leading-relaxed mb-3 text-[11px]">
-            OpenDoor strictly enforces source provenance. Organizer contacts are never fabricated or guessed via AI. Only verified official contacts are published.
+            ChanceDeck strictly enforces source provenance. Organizer contacts are never fabricated or guessed via AI. Only verified official contacts are published.
           </p>
           <div className="flex items-center gap-1.5 text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-lg border border-emerald-200/60 text-[11px] font-medium">
             <ShieldCheck className="w-3.5 h-3.5 shrink-0" />
@@ -70,7 +70,7 @@ export const Footer: React.FC = () => {
 
       <div className="max-w-7xl mx-auto pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px]">
         <div>
-          © 2026 OpenDoor Project. Released under MIT Open-Source License.
+          © 2026 ChanceDeck Project. Released under MIT Open-Source License.
         </div>
         <div className="flex items-center gap-4">
           <Link href="/settings" className="hover:text-purple-600">Privacy & Settings</Link>

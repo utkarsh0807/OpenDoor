@@ -98,7 +98,7 @@ export const INITIAL_OPPORTUNITIES: Opportunity[] = [
     posterImageUrl: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80",
     lastCheckedAt: "2026-11-20T10:00:00Z",
     lastVerifiedAt: "2026-11-20T10:00:00Z",
-    verifiedBy: "OpenDoor Verification Desk",
+    verifiedBy: "ChanceDeck Verification Desk",
   },
 
   // 2. NAGPUR OFFLINE EVENT: Vidarbha Innovation & Robotics Hackathon (Verified Local - Nagpur)
@@ -937,7 +937,7 @@ export const INITIAL_OPPORTUNITIES: Opportunity[] = [
       provenanceUrl: "https://example.org/source",
       isPubliclyAvailable: true
     },
-    description: "Sample listing demonstrating how OpenDoor strictly separates registration status from event status: Registration closed, and event has concluded.",
+    description: "Sample listing demonstrating how ChanceDeck strictly separates registration status from event status: Registration closed, and event has concluded.",
     shortDescription: "Closed algorithmic coding sprint demonstrating closed deadline handling.",
     mode: "online",
     eventCity: null,

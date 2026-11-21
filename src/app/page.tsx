@@ -43,7 +43,7 @@ export default function LandingPage() {
             </div>
             <div>
               <span className="font-extrabold text-navy-900 tracking-tight text-base block leading-none">
-                OpenDoor
+                ChanceDeck
               </span>
               <span className="text-[10px] font-semibold text-purple-600 tracking-wider uppercase">
                 Student Opportunity Intel
@@ -262,7 +262,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* How OpenDoor Solves the Core Problem */}
+      {/* How ChanceDeck Solves the Core Problem */}
       <section className="py-16 bg-navy-950 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="max-w-2xl mx-auto text-center mb-16">

@@ -394,7 +394,7 @@ export const PLATFORM_REGISTRY: SourcePlatformInfo[] = [
     status: 'manual_only',
     website: 'https://freelancer.com',
     description: 'Student-friendly freelance gigs, frontend projects, and micro-contracts vetted for safety.',
-    discoveryMethod: 'Curated OpenDoor Freelance Auditor',
+    discoveryMethod: 'Curated ChanceDeck Freelance Auditor',
     requiresAuth: true,
     lastChecked: new Date().toISOString(),
     itemsDiscoveredCount: 7

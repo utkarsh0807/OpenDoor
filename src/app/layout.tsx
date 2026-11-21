@@ -3,9 +3,9 @@ import './globals.css';
 import { AppShell } from '@/components/layout/AppShell';
 
 export const metadata: Metadata = {
-  title: 'OpenDoor — Discover Opportunities. Build Your Future.',
+  title: 'ChanceDeck — Discover Opportunities. Build Your Future.',
   description: 'Open-source student opportunity intelligence platform for Indian college students. Discover genuine hackathons, scholarships, internships, and research competitions.',
-  keywords: ['Hackathons India', 'Scholarships India', 'Internships for Students', 'National Competitions', 'College Opportunities', 'OpenDoor'],
+  keywords: ['Hackathons India', 'Scholarships India', 'Internships for Students', 'National Competitions', 'College Opportunities', 'ChanceDeck'],
 };
 
 export default function RootLayout({

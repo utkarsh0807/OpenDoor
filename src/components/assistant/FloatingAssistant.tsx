@@ -24,7 +24,7 @@ import { ChatMessage, ChatCitation } from '@/lib/types';
 const INITIAL_WELCOME_MESSAGE: ChatMessage = {
   id: 'welcome-1',
   role: 'assistant',
-  content: `Hi! I'm your OpenDoor AI Assistant. I can search opportunities, discover scholarships, compare hackathons, explain eligibility and answer general questions. What would you like to explore?`,
+  content: `Hi! I'm your ChanceDeck AI Assistant. I can search opportunities, discover scholarships, compare hackathons, explain eligibility and answer general questions. What would you like to explore?`,
   timestamp: new Date().toISOString(),
   suggestedFollowUps: [
     'Discover hackathons in my region',
@@ -154,7 +154,7 @@ export const FloatingAssistant: React.FC = () => {
         <button
           onClick={() => setIsOpen(true)}
           className="group relative flex items-center gap-3 bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 text-white px-4 py-3.5 rounded-full shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95 transition-all duration-200 border border-white/20"
-          aria-label="Open OpenDoor AI Assistant"
+          aria-label="Open ChanceDeck AI Assistant"
         >
           <div className="relative">
             <Bot className="w-6 h-6 animate-pulse" />
@@ -162,7 +162,7 @@ export const FloatingAssistant: React.FC = () => {
           </div>
           <div className="text-left hidden sm:block">
             <div className="text-xs font-semibold leading-tight flex items-center gap-1">
-              OpenDoor AI
+              ChanceDeck AI
               <Sparkles className="w-3 h-3 text-amber-300 inline" />
             </div>
             <div className="text-[10px] text-purple-100 font-medium">Ask Gemini Assistant</div>
@@ -185,7 +185,7 @@ export const FloatingAssistant: React.FC = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-sm flex items-center gap-1.5">
-                  OpenDoor AI Assistant
+                  ChanceDeck AI Assistant
                   <span className="text-[10px] bg-purple-500/40 text-purple-100 px-1.5 py-0.5 rounded-full border border-purple-300/30 font-medium">
                     Gemini
                   </span>
@@ -362,7 +362,7 @@ export const FloatingAssistant: React.FC = () => {
                   </button>
                 </form>
                 <div className="mt-1.5 text-center text-[10px] text-slate-400">
-                  Powered by Google Gemini • OpenDoor Student Intelligence
+                  Powered by Google Gemini • ChanceDeck Student Intelligence
                 </div>
               </div>
             </>

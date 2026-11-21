@@ -201,7 +201,7 @@ export default function CollegesPage() {
       <Modal
         isOpen={showSuggestModal}
         onClose={() => setShowSuggestModal(false)}
-        title="Suggest an Institution for OpenDoor Directory"
+        title="Suggest an Institution for ChanceDeck Directory"
         description="Help us index colleges across all Indian states and districts."
       >
         {submitSuccess ? (

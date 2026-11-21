@@ -75,7 +75,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
             </div>
             <div>
               <span className="font-extrabold text-navy-900 tracking-tight text-base block leading-none">
-                OpenDoor
+                ChanceDeck
               </span>
               <span className="text-[10px] font-medium text-purple-600 tracking-wider uppercase">
                 Student Intel

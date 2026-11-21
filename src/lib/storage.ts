@@ -3,10 +3,10 @@
 
 import { StudentProfile, ApplicationRecord, Opportunity } from './types';
 
-const PROFILE_KEY = 'opendoor_student_profile';
-const SAVED_KEY = 'opendoor_saved_opportunities';
-const APPS_KEY = 'opendoor_applications';
-const REGION_KEY = 'opendoor_selected_region';
+const PROFILE_KEY = 'ChanceDeck_student_profile';
+const SAVED_KEY = 'ChanceDeck_saved_opportunities';
+const APPS_KEY = 'ChanceDeck_applications';
+const REGION_KEY = 'ChanceDeck_selected_region';
 
 export interface SelectedRegion {
   country: string;
@@ -32,7 +32,7 @@ export const StorageManager = {
     if (typeof window === 'undefined') return;
     localStorage.setItem(REGION_KEY, JSON.stringify(region));
     // Dispatch local event so same-tab components instantly re-render
-    window.dispatchEvent(new CustomEvent('opendoor:region-change', { detail: region }));
+    window.dispatchEvent(new CustomEvent('ChanceDeck:region-change', { detail: region }));
     window.dispatchEvent(new Event('storage'));
   },
 
@@ -46,10 +46,10 @@ export const StorageManager = {
         callback(StorageManager.getRegion());
       }
     };
-    window.addEventListener('opendoor:region-change', handler);
+    window.addEventListener('ChanceDeck:region-change', handler);
     window.addEventListener('storage', handler);
     return () => {
-      window.removeEventListener('opendoor:region-change', handler);
+      window.removeEventListener('ChanceDeck:region-change', handler);
       window.removeEventListener('storage', handler);
     };
   },
@@ -144,7 +144,7 @@ export const StorageManager = {
       savedOpportunities: this.getSavedOpportunityIds(),
       applications: this.getApplications(),
       exportedAt: new Date().toISOString(),
-      platform: "OpenDoor Opportunity Intelligence"
+      platform: "ChanceDeck Opportunity Intelligence"
     };
     return JSON.stringify(data, null, 2);
   },

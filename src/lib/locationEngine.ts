@@ -1,4 +1,4 @@
-// OpenDoor Location Intelligence & Regional Filtering Engine
+// ChanceDeck Location Intelligence & Regional Filtering Engine
 
 import { Opportunity, ParticipationMode } from './types';
 import { SelectedRegion } from './storage';

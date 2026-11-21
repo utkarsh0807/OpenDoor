@@ -1,5 +1,5 @@
 -- ====================================================================
--- OPENDOOR — PostgreSQL Schema & Supabase RLS Migration
+-- ChanceDeck — PostgreSQL Schema & Supabase RLS Migration
 -- Migration: 001_initial_schema.sql
 -- Description: Complete 14-table schema with RLS, indexes & constraints
 -- ====================================================================
